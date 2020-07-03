@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function TodoTemplate(props) {
+function TodoElement(props) {
     const [chosen, setChosen] = useState(true);
 
 
@@ -25,4 +25,4 @@ function TodoTemplate(props) {
     );
 }
 
-export default TodoTemplate;
+export default TodoElement;

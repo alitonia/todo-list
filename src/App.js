@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoTemplate from "./components/todo-template";
+import TodoElement from "./components/todoElement";
 import Scrollable from "./components/Scrollable";
 
 

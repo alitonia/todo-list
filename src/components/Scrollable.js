@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import TodoTemplate from "./todo-template";
+import TodoElement from "./todoElement";
 import {nanoid} from 'nanoid'
 
 function Scrollable(props) {
@@ -42,8 +42,8 @@ function Scrollable(props) {
                        onChange={(event) => handleChange(event)}/>
             </form>
             <br/>
-            {todoList.map(element => <TodoTemplate key={element.key} id={element.key} name={element.name}
-                                                   selfDestruct={handleDestroy}/>)}
+            {todoList.map(element => <TodoElement key={element.key} id={element.key} name={element.name}
+                                                  selfDestruct={handleDestroy}/>)}
         </>
     )
 }
