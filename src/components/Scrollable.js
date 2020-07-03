@@ -3,7 +3,9 @@ import TodoTemplate from "./todo-template";
 import {nanoid} from 'nanoid'
 
 function Scrollable(props) {
-    const [todoList, setTodoList] = useState([{key: 1, name: "chicken"}, {key: 2, name: "Dog"},])
+    const [todoList, setTodoList] = useState([
+        {key: 1, name: "Learn programming"},
+        {key: 2, name: "Ăn phở"},])
 
     const [value, setValue] = useState("")
 
